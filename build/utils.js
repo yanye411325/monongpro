@@ -48,6 +48,7 @@ exports.cssLoaders = function (options) {
       return ExtractTextPlugin.extract({
         use: loaders,
         fallback: 'vue-style-loader',
+        //! 此处解决vue项目中css 引入图片路径不对问题，添加 publicPath:'../../'；根据自己项目实际酌情修改此处配置
         publicPath:'../../'
       })
     } else {

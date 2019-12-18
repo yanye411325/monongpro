@@ -27,6 +27,7 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
+      //! 使用static文件夹中的资源 比如.json文件,须添加如下配置映射路径：'static':path.resolve(__dirname, '../static'),
       'static':path.resolve(__dirname, '../static'),
     }
   },

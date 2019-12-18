@@ -6,12 +6,16 @@ import router from './router'
 var Axios = require( 'axios')
 import MintUi from 'mint-ui'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
+//! 解决移动端点击延迟300ms
 import fastclick from 'fastclick'
+//! 结合postcss-pxtorem和rem.js解决移动端布局适配
 import './config/rem'
 
 import 'mint-ui/lib/style.css'
 import 'swiper/dist/css/swiper.css'
 import './assets/css/common.css'
+//! 解决移动端1像素边框hack
+import './assets/css/border.css'
 
 Vue.prototype.$Axios = Axios;
 fastclick.attach(document.body)

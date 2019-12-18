@@ -43,6 +43,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
+    //! 如果将项目打包编译放在 tomcat/webapp访问需将下边配置改为'./'
     assetsPublicPath: './',
 
     /**
