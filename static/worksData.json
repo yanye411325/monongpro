@@ -1,0 +1,77 @@
+{
+    "worksList":[{
+        "title":"商超",
+        "Etitle":"Supermarket",
+        "des":"墨浓设计是极富有个性的新智力联合体，拥有自成体系的设计理念，充满创意的工作方法。成立至今，墨浓始终以“细节成就完美、专业缔造经典，设计创造价值”为核心理念，追求设计作品从概念构思到最终建成的高品质。",
+        "items":[{
+            "imgUrl":"./static/images/work1-01.jpg",
+            "name":"商超1",
+            "itemDes":"6000平米 / 餐厅 / 00000"
+        },{
+            "imgUrl":"./static/images/work1-02.jpg",
+            "name":"商超2",
+            "itemDes":"6000平米 / 餐厅 / 00000"
+        }]
+    },{
+        "title":"酒店",
+        "Etitle":"Hotel",
+        "des":"墨浓设计是极富有个性的新智力联合体，拥有自成体系的设计理念，充满创意的工作方法。成立至今，墨浓始终以“细节成就完美、专业缔造经典，设计创造价值”为核心理念，追求设计作品从概念构思到最终建成的高品质。",
+        "items":[{
+            "imgUrl":"./static/images/work2-01.jpg",
+            "name":"全季酒店",
+            "itemDes":"6000平米 / 餐厅 / 00000"
+        },{
+            "imgUrl":"./static/images/work2-02.jpg",
+            "name":"三千旅居 ",
+            "itemDes":"00000平米 / 酒店 / 中国贵州"
+        },{
+            "imgUrl":"./static/images/work2-03.jpg",
+            "name":"上海西虹桥  湾流",
+            "itemDes":"6000平米 / 餐厅 / 00000"
+        },{
+            "imgUrl":"./static/images/work2-04.jpg",
+            "name":"上海中云盛捷酒店",
+            "itemDes":"6000平米 / 餐厅 / 00000"
+        }]
+    },{
+        "title":"地产",
+        "Etitle":"Real estate",
+        "des":"墨浓设计是极富有个性的新智力联合体，拥有自成体系的设计理念，充满创意的工作方法。成立至今，墨浓始终以“细节成就完美、专业缔造经典，设计创造价值”为核心理念，追求设计作品从概念构思到最终建成的高品质。",
+        "items":[{
+            "imgUrl":"./static/images/work3-01.jpg",
+            "name":"地产1",
+            "itemDes":"6000平米 / 餐厅 / 00000"
+        },{
+            "imgUrl":"./static/images/work3-02.jpg",
+            "name":"地产2",
+            "itemDes":"6000平米 / 餐厅 / 00000"
+        }]
+    },{
+        "title":"商业",
+        "Etitle":"Business",
+        "des":"墨浓设计是极富有个性的新智力联合体，拥有自成体系的设计理念，充满创意的工作方法。成立至今，墨浓始终以“细节成就完美、专业缔造经典，设计创造价值”为核心理念，追求设计作品从概念构思到最终建成的高品质。",
+        "items":[{
+            "imgUrl":"./static/images/work4-01.jpg",
+            "name":"商业1",
+            "itemDes":"6000平米 / 餐厅 / 00000"
+        },{
+            "imgUrl":"./static/images/work4-02.jpg",
+            "name":"商业2",
+            "itemDes":"6000平米 / 餐厅 / 00000"
+        }]
+    },{
+        "title":"办公",
+        "Etitle":"Office",
+        "des":"墨浓设计是极富有个性的新智力联合体，拥有自成体系的设计理念，充满创意的工作方法。成立至今，墨浓始终以“细节成就完美、专业缔造经典，设计创造价值”为核心理念，追求设计作品从概念构思到最终建成的高品质。",
+        "items":[{
+            "imgUrl":"./static/images/work5-01.jpg",
+            "name":"办公1",
+            "itemDes":"6000平米 / 餐厅 / 00000"
+        },{
+            "imgUrl":"./static/images/work5-02.jpg",
+            "name":"办公2",
+            "itemDes":"6000平米 / 餐厅 / 00000"
+        }]
+    }]
+}
+
