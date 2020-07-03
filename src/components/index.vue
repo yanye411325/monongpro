@@ -30,22 +30,22 @@
     <template>
       <swiper :options="swiperOption">
         <!-- slides -->
-        <swiper-slide> 
+        <swiper-slide>
             <img src="../assets/images/banner-pic-01.jpg"/>
         </swiper-slide>
-        <swiper-slide> 
+        <swiper-slide>
             <img src="../assets/images/banner-pic-02.jpg"/>
         </swiper-slide>
-        <swiper-slide> 
+        <swiper-slide>
             <img src="../assets/images/banner-pic-03.jpg"/>
         </swiper-slide>
-        <swiper-slide> 
+        <swiper-slide>
             <img src="../assets/images/banner-pic-04.jpg"/>
         </swiper-slide>
-        <swiper-slide> 
+        <swiper-slide>
             <img src="../assets/images/banner-pic-05.jpg"/>
         </swiper-slide>
-        <swiper-slide> 
+        <swiper-slide>
             <img src="../assets/images/banner-pic-06.jpg"/>
         </swiper-slide>
         <!-- 如果需要分页器 -->
@@ -77,15 +77,15 @@
         </li>
         <li>
           <p>累计<strong>拥有100+城市，300+超设计经验</strong></p>
-          <p class="bdt-line">根据您地区、用户群体、策略，给您提供合适的解决方案</p> 
+          <p class="bdt-line">根据您地区、用户群体、策略，给您提供合适的解决方案</p>
         </li>
         <li>
           <p>拥有<strong>外籍</strong>，以及国内<strong>超市行业资深设计师</strong></p>
-          <p class="bdt-line">提供前沿的创新设计，融入运营理念的规划</p> 
+          <p class="bdt-line">提供前沿的创新设计，融入运营理念的规划</p>
         </li>
         <li>
           <p>从<strong>业态</strong>到<strong>商业定位</strong>，从<strong>方案</strong>到<strong>施工一站式</strong>，服务</p>
-          <p class="bdt-line">提高速度，控制成本</p> 
+          <p class="bdt-line">提高速度，控制成本</p>
         </li>
       </ul>
     </div>
@@ -138,7 +138,7 @@
         <li  v-for="(item,index) in pageData.footBar" :key="index" @click="handlerIndex(index,'tab')" :class="{'active':tabIndex == index}">
           <strong>{{ item.title }}</strong>
           <span>{{ item.Etitle }}</span>
-        </li> 
+        </li>
       </ul>
       <div class="tab-content-wrap" v-if='worksData[tabIndex]'>
         <h4>
@@ -203,7 +203,7 @@
           <strong>{{ item.title }}</strong>
           <span>{{ item.Etitle }}</span>
         </a>
-      </li> 
+      </li>
     </ul>
 
   </div>
@@ -250,6 +250,7 @@ export default {
     handlerIndex(index,name){
       if(name == "tab"){
         this.tabIndex = index;
+        this.barIndex = index;
       }else if(name == 'bar'){
         this.barIndex = index;
         this.tabIndex = this.barIndex;
@@ -320,9 +321,9 @@ header{
         display: inline-block;
       }
       .link-el{
-        color:$color1; 
+        color:$color1;
         font-size: 28px;
-        
+
       }
       &.tel-wrap{
         padding-left: 60px;
@@ -375,7 +376,7 @@ header{
   .swiper-img{
     width:100%;
   }
-} 
+}
 
 .web-des-wrap{
   width: 100%;
@@ -851,7 +852,7 @@ footer{
       strong{
         display: block;
         font-weight: 700;
-      } 
+      }
       span{
         font-size: 16px;
       }
